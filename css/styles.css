@@ -1,0 +1,94 @@
+		/* Estilos para el menú */
+		nav {
+			background-color: #FF0000;
+			color: #fff;
+			padding: 10px;
+		}
+		
+		nav ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			justify-content: space-between;
+		}
+		
+		nav li {
+			margin: 0 10px;
+		}
+		
+		nav a {
+			color: #fff;
+			text-decoration: none;
+			font-weight: bold;
+			padding: 5px 10px;
+			border-radius: 5px;
+		}
+		
+		nav a:hover {
+			background-color: #fff;
+			color: #333;
+		}
+		/* Estilos para la galería de imágenes */
+		.galeria {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			align-items: center;
+			margin: 50px 0;
+		}
+	
+
+
+		.galeria img {
+			flex-basis: calc(33.33% - 10px);
+			margin-bottom: 20px;
+			border-radius: 5px;
+			transition: transform 0.3s ease-in-out;
+		}
+		
+		.galeria img:hover {
+			transform: scale(1.5);
+		}
+
+		/*Estilo de columna de texto*/
+	#columnas{
+   column-count:3;
+   column-gap:20px;
+   column-rule:4px double black
+}
+
+body{
+	background-color:lightyellow;
+}
+
+img{
+	width:300px;
+	height:275px;
+}
+
+hr {
+  margin: 1rem 0;
+  color: black;
+  border: 0;
+  border-top: 6px solid;
+  opacity: 0.25;
+}
+
+h1{
+	text-align:center;
+	color:slateblue;
+	font-family:Showcard Gothic;
+}
+
+h3{
+	text-align:center;
+	color:darkmagenta;
+	font-family:Franklin Gothic Demi;
+}
+
+h4{
+	text-align:justify;
+	color:black;
+	font-family:Franklin Gothic Demi;
+} 
